@@ -1,0 +1,29 @@
+#particles-js{
+	background-color: #5918b6;
+	background-size: cover;
+	background-position: 50% 50%;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+	width: 100vw;
+    height: 100vh;
+	
+}
+#main{
+	position: absolute;
+	top: 50%;
+    z-index: 100;
+}
+html
+{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+body
+{   
+    padding-bottom:0;   
+    margin: 0;
+}
