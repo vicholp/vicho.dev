@@ -11,11 +11,17 @@
     z-index: -1;
 
 }
+html {
+overflow:auto;
+}
+
+h1, h2, h3, p{
+    font-family: ralewayregular; 
+}
 
 #main{
     position: absolute;
-    top:50%;
-
-
+    top:35%;
+    padding: 5vw;
 }
 
