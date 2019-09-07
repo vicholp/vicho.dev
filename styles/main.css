@@ -1,8 +1,3 @@
-
-*{
-    margin: 0;
-    padding: 0;
-}
 #particles-js{
 	background-color: #5918b6;
     height: 100vh;
@@ -13,8 +8,14 @@
     padding: 0;
     border: 0;
     outline: 0;
+    z-index: -1;
 
 }
-html, body {
-    height: 100%;
+
+#main{
+    position: absolute;
+    top:50%;
+
+
 }
+
