@@ -1,9 +1,20 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
 #particles-js{
 	background-color: #5918b6;
     height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
     margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
 
+}
+html, body {
+    height: 100%;
 }
