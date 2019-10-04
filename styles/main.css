@@ -12,11 +12,15 @@
 
 }
 html {
-overflow:hidden;
+overflow:auto;
 }
 
 h1, h2, h3, p{
-    font-family: ralewayregular; 
+    font-family: ralewayregular;
+}
+
+.display-3{
+    font-family: ralewaylight;
 }
 
 #main{
