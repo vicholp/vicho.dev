@@ -111,9 +111,3 @@ particlesJS('particles-js',
 }
 );
 
-$('#your_graph').github_graph( {
-  //Default is empty list
-  data: list_of_timestamp ,
-  // single text and plural text
-  texts: ['completed task','completed tasks']
-});
