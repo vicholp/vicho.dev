@@ -35,11 +35,7 @@
     id="app"
     class="h-full"
   >
-    @include('main.template.navbar')
-
-    @yield('content')
-
-    @include('main.template.footer')
+    <router-view></router-view>
   </div>
 
   @stack('import_foot')
