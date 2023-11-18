@@ -1,0 +1,17 @@
+/backups
+/node_modules
+/public/hot
+/public/sitemap.xml
+/public/mix-manifest.json
+/public/build
+/public/.htaccess
+/storage/*.key
+/vendor
+.env
+.phpunit.result.cache
+.php-cs-fixer.cache
+npm-debug.log
+/.vscode
+error_log
+_ide_helper.php
+stats.html
