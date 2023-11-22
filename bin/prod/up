@@ -1,0 +1,6 @@
+#! /bin/bash
+
+./bin/prod/cache
+
+./bin/prod/php artisan up
+
