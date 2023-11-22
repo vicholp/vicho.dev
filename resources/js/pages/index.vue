@@ -21,7 +21,7 @@
             text="vicholp"
           />
           <index-contact
-            href="https://linkedin.com/u/vicholp"
+            href="https://linkedin.com/in/vicholp"
             icon="mdi:linkedin"
             text="Vicente Lineros Pardo"
           />
