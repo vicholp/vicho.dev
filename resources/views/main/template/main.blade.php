@@ -23,6 +23,20 @@
     href="{{ Request::url() }}"
   >
 
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  >
+
   {!! \Sentry\Laravel\Integration::sentryTracingMeta() !!}
 
   @vite(['resources/css/app.css', 'resources/js/app.js'], 'build')
@@ -30,7 +44,7 @@
   @stack('import_head')
 </head>
 
-<body class="min-h-screen bg-gray-100 dark:bg-gray-900 dark:text-white">
+<body class="min-h-screen">
   <div
     id="app"
     class="h-full"
